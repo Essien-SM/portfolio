@@ -1,49 +1,62 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: Arial, Helvetica;
+body {
+  font-family: Arial, Helvetica;
 
-    background-image: url(kelly/1.5.jpg);;
-    background-size: cover;
-    background-position: left;
-    color:rgb(0, 0, 0);
-    margin: 0;
-    padding: 0;
+  background-image: url(kelly/1.5.jpg);
+  background-size: cover;
+  background-position: left;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+}
 
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 60px;
 }
-header{
-    font-style: italic;
-    background-color:rgb(160, 205, 220);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+
+header {
+  font-style: italic;
+  background-color: rgb(160, 205, 220);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
-header h1{
-    font-size: 36;
-    color: rgb(225, 253, 255);
-    font-style: inherit;
+header h1 {
+  font-size: 36;
+  color: rgb(225, 253, 255);
+  font-style: inherit;
 }
-header ul{
-    list-style: circle;
+header ul {
+  list-style: circle;
 }
-header ul li{
-    display: inline;
-    margin-left: 20px;
+header ul li {
+  display: inline;
+  margin-left: 20px;
 }
 header ul li a {
-    text-decoration: dotted;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
+  text-decoration: dotted;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
 }
 
+img {
+  border-radius: 25px;
+}
 
-footer{
-    background-color: rgb(186, 222, 236);
-    text-align: center;
-    padding: 10px;
-    width: auto;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
